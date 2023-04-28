@@ -2425,20 +2425,16 @@ html {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .hidden {
   display: none;
 }
 
-.h-\[100\%\] {
-  height: 100%;
-}
-
 .h-\[100vh\] {
   height: 100vh;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .w-\[100\%\] {
@@ -2449,24 +2445,8 @@ html {
   width: 100vw;
 }
 
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.grid-cols-custom {
-  grid-template-columns: 57% 42%;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .content-start {
@@ -2481,24 +2461,12 @@ html {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.gap-10 {
-  gap: 2.5rem;
+.gap-14 {
+  gap: 3.5rem;
 }
 
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .gap-9 {
@@ -2507,18 +2475,6 @@ html {
 
 .gap-\[20\%\] {
   gap: 20%;
-}
-
-.gap-\[60px\] {
-  gap: 60px;
-}
-
-.gap-\[40\%\] {
-  gap: 40%;
-}
-
-.gap-14 {
-  gap: 3.5rem;
 }
 
 .rounded-3xl {
@@ -2542,6 +2498,10 @@ html {
   border-color: rgb(37 218 197 / var(--tw-border-opacity));
 }
 
+.bg-inherit {
+  background-color: inherit;
+}
+
 .bg-lGreen {
   --tw-bg-opacity: 1;
   background-color: rgb(37 218 197 / var(--tw-bg-opacity));
@@ -2550,20 +2510,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-base-100 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b1) / var(--tw-bg-opacity));
-}
-
-.bg-inherit {
-  background-color: inherit;
-}
-
-.bg-lBlue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(47 24 147 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -2597,10 +2543,6 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.pb-14 {
-  padding-bottom: 3.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -2622,9 +2564,9 @@ html {
   line-height: 2rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-base {
@@ -2635,11 +2577,6 @@ html {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-sm {
@@ -2654,10 +2591,6 @@ html {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .font-normal {
@@ -2712,11 +2645,6 @@ html {
   background-color: rgb(37 218 197 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-lBlue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(47 24 147 / var(--tw-bg-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2728,19 +2656,14 @@ html {
     line-height: 2.5rem;
   }
 
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
   }
 
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -2754,8 +2677,8 @@ html {
     width: 50%;
   }
 
-  .md\:text-5xl {
-    font-size: 3rem;
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -2767,11 +2690,6 @@ html {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 }
 
@@ -2793,12 +2711,12 @@ html {
     display: none;
   }
 
-  .lg\:h-\[100vh\] {
-    height: 100vh;
-  }
-
   .lg\:h-\[100\%\] {
     height: 100%;
+  }
+
+  .lg\:h-\[100vh\] {
+    height: 100vh;
   }
 
   .lg\:grid-cols-custom {
@@ -2809,12 +2727,12 @@ html {
     justify-content: space-between;
   }
 
-  .lg\:gap-\[30\%\] {
-    gap: 30%;
-  }
-
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:gap-\[30\%\] {
+    gap: 30%;
   }
 
   .lg\:px-28 {
@@ -2825,50 +2743,6 @@ html {
   .lg\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
-  }
-
-  .lg\:pt-14 {
-    padding-top: 3.5rem;
-  }
-
-  .lg\:pt-\[50\%\] {
-    padding-top: 50%;
-  }
-
-  .lg\:pt-\[30\%\] {
-    padding-top: 30%;
-  }
-
-  .lg\:pt-\[200\%\] {
-    padding-top: 200%;
-  }
-
-  .lg\:pt-\[20\%\] {
-    padding-top: 20%;
-  }
-
-  .lg\:pt-\[20px\] {
-    padding-top: 20px;
-  }
-
-  .lg\:pt-\[20vw\] {
-    padding-top: 20vw;
-  }
-
-  .lg\:pt-\[20vh\] {
-    padding-top: 20vh;
-  }
-
-  .lg\:pt-\[10\%\] {
-    padding-top: 10%;
-  }
-
-  .lg\:pt-\[1\%\] {
-    padding-top: 1%;
-  }
-
-  .lg\:pt-\[2\%\] {
-    padding-top: 2%;
   }
 
   .lg\:pt-\[5\%\] {
