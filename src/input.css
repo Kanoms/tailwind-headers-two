@@ -4,7 +4,7 @@
 
 @import "daisyui/dist/daisyui.css";
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 @layer components {
   .kflex {

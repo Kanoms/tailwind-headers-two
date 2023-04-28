@@ -15,6 +15,9 @@ module.exports = {
       gridTemplateColumns: {
         'custom': '57% 42%',
       },
+      fontFamily: {
+        dmsans: ['DM Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [require("daisyui")],
