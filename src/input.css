@@ -4,7 +4,20 @@
 
 @import "daisyui/dist/daisyui.css";
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@font-face {
+  font-family: dmsans;
+  src: url(/fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: dmsansmd;
+  src: url(/fonts/DMSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: dmsansbold;
+  src: url(/fonts/DMSans-Bold.ttf);
+}
 
 @layer components {
   .kflex {

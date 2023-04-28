@@ -16,7 +16,9 @@ module.exports = {
         'custom': '57% 42%',
       },
       fontFamily: {
-        dmsans: ['DM Sans', 'sans-serif'],
+        dmsans: "dmsans",
+        dmsansmd: "dmsansmd",
+        dmsansbold: "dmsansbold",
       },
     },
   },
