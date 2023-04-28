@@ -3,3 +3,15 @@
 @tailwind utilities;
 
 @import "daisyui/dist/daisyui.css";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+@layer components {
+  .kflex {
+    @apply;
+  }
+}
+
+.header-img {
+  background-image: url(https://res.cloudinary.com/duxfzk6uy/image/upload/v1682675731/Kanoms/Photo_vcj3ra.png);
+}

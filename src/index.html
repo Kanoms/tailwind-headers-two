@@ -6,6 +6,46 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <header
+      class="h-[100vh] w-[100vw] grid grid-cols-custom justify-between bg-white"
+    >
+      <div
+        class="flex flex-col h-[100vh] gap-8 px-3 py-2 lg:gap-32 lg:px-28 lg:py-16"
+      >
+        <nav class="flex items-center justify-between">
+          <div class="text-2xl text-lBlue font-bold">Startup 3</div>
+
+          <div>
+            <ul class="hidden lg:flex text-base font-medium gap-9">
+              <li>Pricing</li>
+              <li>About</li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="flex flex-col justify-between">
+          <h1 class="text-lBlue text-6xl font-bold">
+            Great tool to boost your startup
+          </h1>
+
+          <article>
+            We made it so beutiful and simple. It combines landings, pages,
+            blogs and shop screens. It is definitely the tool you need in your
+            collection!
+          </article>
+
+          <div class="flex">
+            <button>Get Started</button>
+
+            <button>Learn More</button>
+          </div>
+
+          <p>By signing up, you agree to the Terms of Service</p>
+        </div>
+      </div>
+      <div
+        class="header-img w-[100%] h-[100vh] bg-cover bg-center bg-no-repeat"
+      ></div>
+    </header>
   </body>
 </html>
