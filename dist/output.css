@@ -2561,6 +2561,11 @@ html {
   background-color: inherit;
 }
 
+.bg-lBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 24 147 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -2705,6 +2710,11 @@ html {
 .hover\:bg-lGreen:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(37 218 197 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-lBlue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 24 147 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover {
