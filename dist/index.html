@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+
+    <!-- FONT AWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-white">
+    <header
+      class="flex flex-col font-dmsansmd w-[100vw] lg:h-[100vh] lg:grid lg:grid-cols-custom lg:justify-between bg-white"
+    >
+      <div
+        class="flex flex-col gap-[20%] content-start h-[100vh] px-3 py-2 lg:h-[100%] lg:gap-[30%] lg:px-28 lg:py-14 bg-white"
+      >
+        <nav class="flex items-center justify-between">
+          <div class="font-dmsansbold text-2xl text-lBlue font-bold">
+            Startup 3
+          </div>
+
+          <div>
+            <ul class="hidden lg:flex text-base gap-9">
+              <li>Pricing</li>
+              <li>About</li>
+            </ul>
+          </div>
+
+          <div class="dropdown dropdown-end lg:hidden">
+            <label
+              tabindex="0"
+              class="btn m-1 bg-inherit border-none text-lg hover:bg-lGreen hover:text-white"
+              ><i class="fa-solid fa-bars"></i
+            ></label>
+            <ul
+              tabindex="0"
+              class="dropdown-content menu p-2 shadow bg-lGreen text-white rounded-box w-52"
+            >
+              <li><a>Pricing</a></li>
+              <li><a>About</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="flex flex-col gap-14 lg:justify-between lg:gap-10">
+          <h1
+            class="text-lBlue text-3xl sm:text-4xl md:text-6xl font-dmsansbold font-bold text-center lg:text-6xl lg:text-left"
+          >
+            Great tool to boost your startup
+          </h1>
+
+          <article
+            class="text-sm sm:text-base md:text-lg md:w-[50%] md:mx-auto lg:mx-0 lg:text-lg text-center lg:text-left h:w-[80%]"
+          >
+            We made it so beutiful and simple. It combines landings, pages,
+            blogs and shop screens. It is definitely the tool you need in your
+            collection!
+          </article>
+
+          <div class="flex text-lg lg:pt-[5%] gap-3 mx-auto lg:mx-0">
+            <button class="px-4 py-2 bg-lGreen rounded-3xl text-white">
+              Get Started
+            </button>
+
+            <button
+              class="px-4 py-2 bg-white rounded-3xl text-lGreen border-lGreen border-solid border-[2px]"
+            >
+              Learn More
+            </button>
+          </div>
+
+          <p
+            class="font-normal text-xs sm:text-sm md:text-base lg:text-base font-dmsans text-center lg:text-left"
+          >
+            By signing up, you agree to the Terms of Service
+          </p>
+        </div>
+      </div>
+      <div
+        class="header-img w-[100%] h-[100vh] bg-cover bg-center bg-no-repeat lg:h-[100%]"
+      ></div>
+    </header>
+  </body>
+</html>
